@@ -1,0 +1,170 @@
+ *{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px auto;
+}
+.wrapper {
+    width: 960px;
+    height: 700px;
+    box-sizing: border-box;
+
+    }
+    header {
+    background-color: #294e79;
+    width: 960px;
+    height: 150px;
+    position: relative;
+    }
+    header img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    }
+    header .ph {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    color: white;
+    }
+    header h1 {
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    color: white;
+    }
+    header #frm1 {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    background-color: Irgb(86, 138, 184);
+    color: azure;
+    }
+    header #frm1 input {
+    background-color: rgb(9, 32, 53);
+    }
+    header #frm1 button {
+    background-color: rgb(9, 32, 53);
+    }
+    nav {
+    position: absolute;
+    bottom: 0px;
+    left: 400px;
+    }
+    .menu li {
+    display: inline-table;
+    background-color: #688eb9;
+    height: 50px;
+    line-height: 50px;
+    margin: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    }
+    .menu li a {
+    color: rgb(46, 30, 212);
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+
+    }
+    .menu li:hover {
+    background-color: azure;
+    }
+    .menu li:hover>a {
+    color: rgb(225, 232, 26);
+    }
+    .content {
+    width: 960px;
+    height: 450px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    
+    }
+    footer {
+    background-color: #294e79;
+    width: 960px;
+    height: 30px;
+    position: relative;
+    }
+    section {
+    height: 100%;
+    width: 70%;
+    padding-left: 10px;
+    }
+    .up{
+        height: 10%;
+        width: 100%;
+    }
+    .up h1 {
+        padding-bottom: 15px;
+        border-bottom: dashed; 
+
+    }
+    .down {
+        margin-top: 35px;
+        height: 80%;
+        width: 100%;
+        display: flex;
+    }
+    .d1 {  
+        height: 100%;
+        width: 60%;
+        font-style: italic;
+    }
+    .d1 p{
+        color: red;
+        text-shadow: 2px 2px 5px green;
+        width: 86%;
+        float: left;
+
+    }
+    .d1 .name {
+    float: left;
+    padding-right: 10px;
+
+    }
+    .d1 .telephone{
+        float: left;
+    padding-right: 10px;
+    }
+    textarea {
+        height: 50px;
+        width: 86%;
+    }
+    .d2{
+        height: 100%;
+        width: 40%;
+
+    }
+    .d2 h2 {
+        padding-bottom: 15px;
+        border-bottom: 1.75px dashed ;
+    }
+    .d2 p {
+        padding-top: 15px;
+    }
+
+    aside {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(222, 217, 210);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    }
+    aside h2 {
+        border-bottom: 1.75px dashed;
+        padding-bottom: 15px;
+
+    }
+    aside img{
+        margin-top: 15px;
+        border: rgb(8, 7, 7) ;
+        border-bottom: 2px;
+        border-top: 2px;
+        border-left: 2px;
+        border-right: 2px;
+    }
+        
+        
